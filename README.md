@@ -1,26 +1,38 @@
-# 🎮 MC Server — Colab Notebook (PUBLIC)
+# 🎮 Minecraft Server for Colab — v11
 
-Is repo me sirf notebook hai — **koi secret nahi**. Secret sirf **EK BAAR** paste hota hai aur tumhare **Google Drive** me save ho jata hai (phir hamesha yaad).
+**Ek link • Ek cell • Ek Run — poora server + advanced panel khud start ho jata hai.**
 
-## ▶️ Colab me kholo
+## ▶️ Start kaise karein
+1. Ye link kholo (bookmark kar lo — hamesha yahi rehta hai):
+   **https://colab.research.google.com/github/ykewat354-cyber/mc-colab/blob/main/MC_FINAL.ipynb**
+2. Runtime → **Run all** (notebook me sirf **EK** code cell hai — uske ▶️ dabane se bhi sab ho jata hai)
+3. Google Drive popup → **ALLOW** (world save ke liye)
+4. **Pehli baar sirf ek baar**: box me **PLAYIT_SECRET** paste karo → Enter
+   → Drive me save ho jati hai, agli baar khud load hogi
+5. **Panel link** output + 📱 ntfy notification me aa jata hai • dosto ka **playit.gg address wahi purana** rehta hai
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ykewat354-cyber/mc-colab/blob/main/MC_FINAL.ipynb)
+## 🎛️ Panel v5 — ek hi jagah sab kuch
+| Tab | Kya hai |
+|---|---|
+| 📊 Dashboard | Start/Stop/Restart, online players, **CPU • RAM • TPS live charts**, quick commands |
+| 🖥 Console | live console (color-coded), koi bhi command bhejo, clean view toggle |
+| 💬 Chat | sabki chat **LIVE** (naam ke saath), joins/advancements, server se `say` bhejo |
+| 📁 Files | files dekho, **edit karo**, delete, upload, download (folder auto-zip) |
+| 🧩 Plugins | **Modrinth** se search + 1-tap install, URL se install, jar upload, on/off/delete |
+| 💾 Backups | **Backup Now**, list, **Download**, **Restore** (restore se pehle safety copy automatic) |
+| ⚙️ Software | Paper / Purpur / Vanilla / Fabric — ek tap me switch, jar khud download hota hai |
 
-## 🚀 Kaise chalana hai
+## 🛡️ Data safety (data loss minimum)
+- Har **60 second** me `save-all` + Drive sync (pehle 5 min tha)
+- Server stop / restart / crash par **turant** save + sync
+- Har 6 ghante auto zip backup (latest 12 rakhte hain) + kabhi bhi manual
+- Naye session me: world + configs + server software Drive se **khud wapas** aa jate hain
 
-1. Upar wala **Open in Colab** button dabao
-2. **Runtime → Run all** dabao
-3. Google Drive ka **popup aaye → ALLOW** karo (1 baar — world + cache ke liye)
-4. **Pehli baar sirf ek BOX aayega** — usme `PLAYIT_SECRET` paste karke Enter dabao (value chat me di hai)
-   - Ye Drive me save ho jata hai → **phir dobara kabhi nahi poochenge** ✅
-5. Panel link: **📱 ntfy notification** + notebook ke output me dikhega (panel key-locked hai — sirf wahi full link chalega)
-6. Last cell **"KEEPALIVE"** hamesha chalta rahega (ye normal hai) — **tab khula rakho**
+## 📱 Notifications (ntfy.sh — free, no account)
+Server start, panel link, crash-restart, backup done — sab phone pe.
+Free **"ntfy"** Android app install karke notebook output me dikhne wala ntfy bookmark add kar lo (sirf 1 baar).
 
-## 📌 Notes
-
-- File ka naam `MC_FINAL.ipynb` **fix** hai — **link kabhi nahi badlega**, andar ka code update hota rahega (v9 → v10 → ...).
-- **Panel ka link notebook output + ntfy notification me aata hai** (public repo me nahi — security).
-- Panel **key-locked** hai — sirf ntfy/output wala **FULL link** khulega.
-- **ngrok hata diya gaya** — ab **cloudflared** hi panel link deta hai (kabhi busy/takrav nahi).
-- Colab free limit ~12 ghante — uske baad wapas **Run all** (world Drive se auto-restore ho jayega).
-- Minecraft address: playit.gg dashboard → Tunnels (stable address — doston ko wahi dena).
+## ⚠️ Zaroori baatein
+- Colab tab **khula rakho** (tab band = ~90 sec me server off)
+- Colab ki ~12h limit ke baad: link dobara kholo → **Run all** → world Drive se wapas aa jayegi
+- Panel sirf **key-wale link** se khulta hai (link notebook output + phone notification me milta hai)
