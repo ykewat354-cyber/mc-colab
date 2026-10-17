@@ -1,6 +1,6 @@
 # 🎮 MC Server — Colab Notebook (PUBLIC)
 
-Is repo me sirf notebook hai — **koi secret nahi**. Sab secrets tumhare **Colab ke 🔑** me safe hain (isliye public repo bhi 100% safe hai).
+Is repo me sirf notebook hai — **koi secret nahi**. Sab secrets tumhare **Colab ke 🔑** me safe hain.
 
 ## ▶️ Colab me kholo
 
@@ -19,6 +19,6 @@ Is repo me sirf notebook hai — **koi secret nahi**. Sab secrets tumhare **Cola
 ## 📌 Notes
 
 - File ka naam `MC_FINAL.ipynb` **fix** hai — **link kabhi nahi badlega**, andar ka code update hota rahega (v9 → v10 → ...).
-- **Panel (permanent):** https://tidal-chug-rasping.ngrok-free.dev
+- **Panel ka link notebook ke output me milega** (public repo me nahi likhte — security).
 - Colab free limit ~12 ghante — uske baad wapas **Run all** (world Drive se auto-restore ho jayega).
 - Minecraft address: playit.gg dashboard → Tunnels (stable address).
